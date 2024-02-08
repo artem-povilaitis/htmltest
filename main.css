@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #ffffff;
+}
+
+a {
+    white-space: nowrap;
+}
+header a {
+    color:white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.top-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    display: flex;
+    align-items: center;
+    background-color: #4f6ae8;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-height: 40px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #4f6ae8;
+}
+
+.photo-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('images/photo.jpg');
+    min-height: 600px;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;   
+
+}
+
+
+
+.information {
+    color: white;
+    max-width: 512px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.btn {
+    border: white;
+    border: solid;
+    padding: 7px;
+    border-width: 1px;
+
+}
+
+.extra {
+    background-color: white;
+    display: flex;
+    min-height: 140px;
+    margin-left: 10%; 
+    margin-right: 10%;
+    position: relative;
+    bottom: 30px;
+    justify-content: space-between;
+    box-shadow: 0px 15px 100px 10px rgba(34, 60, 80, 0.6);
+    text-align: center;
+}
+.extra img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    border-width: 1px;
+    align-self: center;
+
+}
+
+
+.extra h2 {
+    color:grey;
+    font-size: medium;
+}
